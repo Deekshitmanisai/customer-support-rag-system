@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "export_date": "2025-08-02T03:41:21.112726",
+    "system_version": "1.0.0",
+    "components": [
+      "AdvancedRAGSystem",
+      "CustomerSupportKnowledgeBase",
+      "EscalationPredictor",
+      "CustomerSupportResponseGenerator",
+      "CustomerSatisfactionTracker",
+      "SentimentAnalyzer"
+    ]
+  },
+  "satisfaction_data": "satisfaction_data_20250802_034121.json",
+  "escalation_data": "escalation_data_20250802_034121.json",
+  "knowledge_base_data": "customer_support_kb_20250802_034121.json",
+  "system_analytics": {
+    "satisfaction_analytics": {
+      "time_period": "all",
+      "total_interactions": 9,
+      "unique_customers": 7,
+      "satisfaction_distribution": {
+        "distribution": {
+          "excellent": {
+            "count": 1,
+            "percentage": 33.33333333333333
+          },
+          "good": {
+            "count": 2,
+            "percentage": 66.66666666666666
+          }
+        },
+        "average_satisfaction": 0.7000000000000001,
+        "median_satisfaction": 0.7000000000000001
+      },
+      "response_type_performance": {
+        "template_generated": {
+          "count": 3,
+          "average_satisfaction": 0.7000000000000001,
+          "std_satisfaction": 0.08164965809277258
+        }
+      },
+      "escalation_analysis": {
+        "total_escalations": 1,
+        "escalation_rate": 0.1111111111111111,
+        "escalated_satisfaction": 0.6000000000000001,
+        "non_escalated_satisfaction": 0.75
+      },
+      "response_time_analysis": {
+        "average_response_time": 3.5,
+        "median_response_time": 3.5,
+        "response_time_satisfaction_correlation": -1.0,
+        "fast_response_satisfaction": 0.7000000000000001,
+        "slow_response_satisfaction": NaN
+      },
+      "sentiment_impact": {
+        "sentiment_aware_count": 6,
+        "sentiment_unaware_count": 3,
+        "sentiment_aware_satisfaction": NaN,
+        "sentiment_unaware_satisfaction": 0.7000000000000001
+      },
+      "trends": {
+        "trend": "insufficient_data"
+      },
+      "optimization_opportunities": [
+        {
+          "type": "satisfaction_gap",
+          "current": 0.7000000000000001,
+          "target": 0.85,
+          "improvement_needed": 0.1499999999999999,
+          "recommendation": "Focus on improving response quality and empathy"
+        },
+        {
+          "type": "escalation_rate",
+          "current": 0.1111111111111111,
+          "target": 0.1,
+          "improvement_needed": 0.0111111111111111,
+          "recommendation": "Improve first-contact resolution rate"
+        }
+      ]
+    },
+    "escalation_analytics": {
+      "total_interactions": 6,
+      "total_escalations": 0,
+      "escalation_rate": 0.0,
+      "category_breakdown": {},
+      "recent_escalations": 0,
+      "trend": "insufficient_data"
+    },
+    "knowledge_base_stats": {
+      "total_articles": 10,
+      "categories": {
+        "account_management": {
+          "article_count": 2,
+          "average_helpful_rate": 0.865,
+          "average_resolution_rate": 0.915
+        },
+        "billing": {
+          "article_count": 2,
+          "average_helpful_rate": 0.8049999999999999,
+          "average_resolution_rate": 0.875
+        },
+        "technical_support": {
+          "article_count": 2,
+          "average_helpful_rate": 0.7849999999999999,
+          "average_resolution_rate": 0.7749999999999999
+        },
+        "product_inquiry": {
+          "article_count": 0,
+          "average_helpful_rate": 0.0,
+          "average_resolution_rate": 0.0
+        },
+        "returns_refunds": {
+          "article_count": 1,
+          "average_helpful_rate": 0.9,
+          "average_resolution_rate": 0.95
+        },
+        "general_inquiry": {
+          "article_count": 1,
+          "average_helpful_rate": 0.92,
+          "average_resolution_rate": 0.89
+        },
+        "emotional_support": {
+          "article_count": 2,
+          "average_helpful_rate": 0.94,
+          "average_resolution_rate": 0.89
+        }
+      },
+      "average_satisfaction": 0.861,
+      "escalation_triggers_count": 30
+    },
+    "rag_system_stats": {
+      "total_documents": 10,
+      "embedding_model": "SentenceTransformer(\n  (0): Transformer({'max_seq_length': 256, 'do_lower_case': False, 'architecture': 'BertModel'})\n  (1): Pooling({'word_embedding_dimension': 384, 'pooling_mode_cls_token': False, 'pooling_mode_mean_tokens': True, 'pooling_mode_max_tokens': False, 'pooling_mode_mean_sqrt_len_tokens': False, 'pooling_mode_weightedmean_tokens': False, 'pooling_mode_lasttoken': False, 'include_prompt': True})\n  (2): Normalize()\n)",
+      "database_type": "ChromaDB"
+    }
+  }
+}

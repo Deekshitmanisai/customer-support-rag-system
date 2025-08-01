@@ -1,0 +1,402 @@
+{
+  "metadata": {
+    "export_date": "2025-08-02T03:35:19.339933",
+    "total_interactions": 9,
+    "unique_customers": 7
+  },
+  "satisfaction_data": [
+    {
+      "customer_id": "21416837-d576-4e39-9667-598166860126",
+      "timestamp": "2025-08-02T03:35:19.142447",
+      "query": "test customer query",
+      "response_content": "I'll make sure we get this resolved for you. \nBased on our help articles, I can provide you with the information you need. \nI'm here if you have any other questions. Thank you for reaching out to us.",
+      "response_type": "template_generated",
+      "sentiment_aware": true,
+      "escalation_handled": false,
+      "articles_used": 5,
+      "confidence_score": 0.0,
+      "response_tone": "professional and friendly",
+      "satisfaction_score": null,
+      "feedback": null,
+      "escalation_occurred": false,
+      "response_time": 0.055539846420288086,
+      "satisfaction_level": null
+    },
+    {
+      "customer_id": "70ec03ef-80df-4eb6-b973-9afa721a1aee",
+      "timestamp": "2025-08-02T03:35:19.176484",
+      "query": "I can't reset my password, this is so frustrating!",
+      "response_content": "I understand your concern, and let me help you with this. \nHere's what you can do:\nContent: If youve forgotten your password, follow these steps: 1. Go to the login page 2. Click Forgot Password 3. Enter your email address 4. Check your email for reset instructions 5. Click the reset link an...\nContent: If youve forgotten your password, follow these steps: 1. Go to the login page 2. Click Forgot Password 3. Enter your email address 4. Check your email for reset instructions 5. Click the reset link an...\nContent: If youve forgotten your password, follow these steps: 1. Go to the login page 2. Click Forgot Password 3. Enter your email address 4. Check your email for reset instructions 5. Click the reset link an... \nI want to make sure we find the right solution for you. Please let me know if there's anything else I can do to help.",
+      "response_type": "template_generated",
+      "sentiment_aware": true,
+      "escalation_handled": false,
+      "articles_used": 5,
+      "confidence_score": 0.6166,
+      "response_tone": "empathetic and supportive",
+      "satisfaction_score": null,
+      "feedback": null,
+      "escalation_occurred": false,
+      "response_time": 0.031382083892822266,
+      "satisfaction_level": null
+    },
+    {
+      "customer_id": "3b377b22-7898-4b02-84eb-29220e1a5f0f",
+      "timestamp": "2025-08-02T03:35:19.221700",
+      "query": "How do I return an item I purchased?",
+      "response_content": "Let me assist you with this right away. \nBased on our help articles, I can provide you with the information you need. \nI'm here if you have any other questions. Thank you for reaching out to us.",
+      "response_type": "template_generated",
+      "sentiment_aware": true,
+      "escalation_handled": false,
+      "articles_used": 5,
+      "confidence_score": 0.0,
+      "response_tone": "professional and friendly",
+      "satisfaction_score": null,
+      "feedback": null,
+      "escalation_occurred": false,
+      "response_time": 0.04309558868408203,
+      "satisfaction_level": null
+    },
+    {
+      "customer_id": "bc2c2a8c-adf5-419d-9c96-6a427e6197e5",
+      "timestamp": "2025-08-02T03:35:19.256433",
+      "query": "My payment was declined and I need help immediately!",
+      "response_content": "I can help you with that, no problem. \nBased on our help articles, I can provide you with the information you need. \nI'm glad I could help! Please let me know if you need anything else.",
+      "response_type": "template_generated",
+      "sentiment_aware": true,
+      "escalation_handled": false,
+      "articles_used": 5,
+      "confidence_score": 0.4574,
+      "response_tone": "enthusiastic and helpful",
+      "satisfaction_score": null,
+      "feedback": null,
+      "escalation_occurred": false,
+      "response_time": 0.03350377082824707,
+      "satisfaction_level": null
+    },
+    {
+      "customer_id": "f3ad747b-5b4f-4337-9fc7-ceebc0fcd923",
+      "timestamp": "2025-08-02T03:35:19.281297",
+      "query": "The app keeps crashing and I'm losing important data!",
+      "response_content": "Let me assist you with this right away. \nBased on our help articles, I can provide you with the information you need. \nI'm glad I could help! Please let me know if you need anything else.",
+      "response_type": "template_generated",
+      "sentiment_aware": true,
+      "escalation_handled": false,
+      "articles_used": 5,
+      "confidence_score": 0.2714,
+      "response_tone": "enthusiastic and helpful",
+      "satisfaction_score": null,
+      "feedback": null,
+      "escalation_occurred": false,
+      "response_time": 0.02388787269592285,
+      "satisfaction_level": null
+    },
+    {
+      "customer_id": "12694060-ac81-4132-b217-13c3e70b0c40",
+      "timestamp": "2025-08-02T03:35:19.307251",
+      "query": "I want to speak to a manager about this terrible service!",
+      "response_content": "I understand this is important to you, and I want to help resolve it. \nBased on our help articles, I can provide you with the information you need. \nI want to make sure we find the right solution for you. Please let me know if there's anything else I can do to help.",
+      "response_type": "template_generated",
+      "sentiment_aware": true,
+      "escalation_handled": false,
+      "articles_used": 5,
+      "confidence_score": 0.5599,
+      "response_tone": "empathetic and supportive",
+      "satisfaction_score": null,
+      "feedback": null,
+      "escalation_occurred": false,
+      "response_time": 0.025004863739013672,
+      "satisfaction_level": null
+    },
+    {
+      "customer_id": "test_customer_123",
+      "timestamp": "2025-08-02T03:35:19.317018",
+      "query": "Test query 1",
+      "response_content": "Test response 1",
+      "response_type": "template_generated",
+      "sentiment_aware": false,
+      "escalation_handled": false,
+      "articles_used": 0,
+      "confidence_score": 0.0,
+      "response_tone": "unknown",
+      "satisfaction_score": 0.8,
+      "feedback": null,
+      "escalation_occurred": false,
+      "response_time": 2.5,
+      "satisfaction_level": "excellent"
+    },
+    {
+      "customer_id": "test_customer_123",
+      "timestamp": "2025-08-02T03:35:19.317196",
+      "query": "Test query 2",
+      "response_content": "Test response 2",
+      "response_type": "template_generated",
+      "sentiment_aware": false,
+      "escalation_handled": false,
+      "articles_used": 0,
+      "confidence_score": 0.0,
+      "response_tone": "unknown",
+      "satisfaction_score": 0.7000000000000001,
+      "feedback": null,
+      "escalation_occurred": false,
+      "response_time": 3.5,
+      "satisfaction_level": "good"
+    },
+    {
+      "customer_id": "test_customer_123",
+      "timestamp": "2025-08-02T03:35:19.317360",
+      "query": "Test query 3",
+      "response_content": "Test response 3",
+      "response_type": "template_generated",
+      "sentiment_aware": false,
+      "escalation_handled": false,
+      "articles_used": 0,
+      "confidence_score": 0.0,
+      "response_tone": "unknown",
+      "satisfaction_score": 0.6000000000000001,
+      "feedback": null,
+      "escalation_occurred": true,
+      "response_time": 4.5,
+      "satisfaction_level": "good"
+    }
+  ],
+  "customer_interactions": {
+    "21416837-d576-4e39-9667-598166860126": [
+      {
+        "customer_id": "21416837-d576-4e39-9667-598166860126",
+        "timestamp": "2025-08-02T03:35:19.142447",
+        "query": "test customer query",
+        "response_content": "I'll make sure we get this resolved for you. \nBased on our help articles, I can provide you with the information you need. \nI'm here if you have any other questions. Thank you for reaching out to us.",
+        "response_type": "template_generated",
+        "sentiment_aware": true,
+        "escalation_handled": false,
+        "articles_used": 5,
+        "confidence_score": 0.0,
+        "response_tone": "professional and friendly",
+        "satisfaction_score": null,
+        "feedback": null,
+        "escalation_occurred": false,
+        "response_time": 0.055539846420288086,
+        "satisfaction_level": null
+      }
+    ],
+    "70ec03ef-80df-4eb6-b973-9afa721a1aee": [
+      {
+        "customer_id": "70ec03ef-80df-4eb6-b973-9afa721a1aee",
+        "timestamp": "2025-08-02T03:35:19.176484",
+        "query": "I can't reset my password, this is so frustrating!",
+        "response_content": "I understand your concern, and let me help you with this. \nHere's what you can do:\nContent: If youve forgotten your password, follow these steps: 1. Go to the login page 2. Click Forgot Password 3. Enter your email address 4. Check your email for reset instructions 5. Click the reset link an...\nContent: If youve forgotten your password, follow these steps: 1. Go to the login page 2. Click Forgot Password 3. Enter your email address 4. Check your email for reset instructions 5. Click the reset link an...\nContent: If youve forgotten your password, follow these steps: 1. Go to the login page 2. Click Forgot Password 3. Enter your email address 4. Check your email for reset instructions 5. Click the reset link an... \nI want to make sure we find the right solution for you. Please let me know if there's anything else I can do to help.",
+        "response_type": "template_generated",
+        "sentiment_aware": true,
+        "escalation_handled": false,
+        "articles_used": 5,
+        "confidence_score": 0.6166,
+        "response_tone": "empathetic and supportive",
+        "satisfaction_score": null,
+        "feedback": null,
+        "escalation_occurred": false,
+        "response_time": 0.031382083892822266,
+        "satisfaction_level": null
+      }
+    ],
+    "3b377b22-7898-4b02-84eb-29220e1a5f0f": [
+      {
+        "customer_id": "3b377b22-7898-4b02-84eb-29220e1a5f0f",
+        "timestamp": "2025-08-02T03:35:19.221700",
+        "query": "How do I return an item I purchased?",
+        "response_content": "Let me assist you with this right away. \nBased on our help articles, I can provide you with the information you need. \nI'm here if you have any other questions. Thank you for reaching out to us.",
+        "response_type": "template_generated",
+        "sentiment_aware": true,
+        "escalation_handled": false,
+        "articles_used": 5,
+        "confidence_score": 0.0,
+        "response_tone": "professional and friendly",
+        "satisfaction_score": null,
+        "feedback": null,
+        "escalation_occurred": false,
+        "response_time": 0.04309558868408203,
+        "satisfaction_level": null
+      }
+    ],
+    "bc2c2a8c-adf5-419d-9c96-6a427e6197e5": [
+      {
+        "customer_id": "bc2c2a8c-adf5-419d-9c96-6a427e6197e5",
+        "timestamp": "2025-08-02T03:35:19.256433",
+        "query": "My payment was declined and I need help immediately!",
+        "response_content": "I can help you with that, no problem. \nBased on our help articles, I can provide you with the information you need. \nI'm glad I could help! Please let me know if you need anything else.",
+        "response_type": "template_generated",
+        "sentiment_aware": true,
+        "escalation_handled": false,
+        "articles_used": 5,
+        "confidence_score": 0.4574,
+        "response_tone": "enthusiastic and helpful",
+        "satisfaction_score": null,
+        "feedback": null,
+        "escalation_occurred": false,
+        "response_time": 0.03350377082824707,
+        "satisfaction_level": null
+      }
+    ],
+    "f3ad747b-5b4f-4337-9fc7-ceebc0fcd923": [
+      {
+        "customer_id": "f3ad747b-5b4f-4337-9fc7-ceebc0fcd923",
+        "timestamp": "2025-08-02T03:35:19.281297",
+        "query": "The app keeps crashing and I'm losing important data!",
+        "response_content": "Let me assist you with this right away. \nBased on our help articles, I can provide you with the information you need. \nI'm glad I could help! Please let me know if you need anything else.",
+        "response_type": "template_generated",
+        "sentiment_aware": true,
+        "escalation_handled": false,
+        "articles_used": 5,
+        "confidence_score": 0.2714,
+        "response_tone": "enthusiastic and helpful",
+        "satisfaction_score": null,
+        "feedback": null,
+        "escalation_occurred": false,
+        "response_time": 0.02388787269592285,
+        "satisfaction_level": null
+      }
+    ],
+    "12694060-ac81-4132-b217-13c3e70b0c40": [
+      {
+        "customer_id": "12694060-ac81-4132-b217-13c3e70b0c40",
+        "timestamp": "2025-08-02T03:35:19.307251",
+        "query": "I want to speak to a manager about this terrible service!",
+        "response_content": "I understand this is important to you, and I want to help resolve it. \nBased on our help articles, I can provide you with the information you need. \nI want to make sure we find the right solution for you. Please let me know if there's anything else I can do to help.",
+        "response_type": "template_generated",
+        "sentiment_aware": true,
+        "escalation_handled": false,
+        "articles_used": 5,
+        "confidence_score": 0.5599,
+        "response_tone": "empathetic and supportive",
+        "satisfaction_score": null,
+        "feedback": null,
+        "escalation_occurred": false,
+        "response_time": 0.025004863739013672,
+        "satisfaction_level": null
+      }
+    ],
+    "test_customer_123": [
+      {
+        "customer_id": "test_customer_123",
+        "timestamp": "2025-08-02T03:35:19.317018",
+        "query": "Test query 1",
+        "response_content": "Test response 1",
+        "response_type": "template_generated",
+        "sentiment_aware": false,
+        "escalation_handled": false,
+        "articles_used": 0,
+        "confidence_score": 0.0,
+        "response_tone": "unknown",
+        "satisfaction_score": 0.8,
+        "feedback": null,
+        "escalation_occurred": false,
+        "response_time": 2.5,
+        "satisfaction_level": "excellent"
+      },
+      {
+        "customer_id": "test_customer_123",
+        "timestamp": "2025-08-02T03:35:19.317196",
+        "query": "Test query 2",
+        "response_content": "Test response 2",
+        "response_type": "template_generated",
+        "sentiment_aware": false,
+        "escalation_handled": false,
+        "articles_used": 0,
+        "confidence_score": 0.0,
+        "response_tone": "unknown",
+        "satisfaction_score": 0.7000000000000001,
+        "feedback": null,
+        "escalation_occurred": false,
+        "response_time": 3.5,
+        "satisfaction_level": "good"
+      },
+      {
+        "customer_id": "test_customer_123",
+        "timestamp": "2025-08-02T03:35:19.317360",
+        "query": "Test query 3",
+        "response_content": "Test response 3",
+        "response_type": "template_generated",
+        "sentiment_aware": false,
+        "escalation_handled": false,
+        "articles_used": 0,
+        "confidence_score": 0.0,
+        "response_tone": "unknown",
+        "satisfaction_score": 0.6000000000000001,
+        "feedback": null,
+        "escalation_occurred": true,
+        "response_time": 4.5,
+        "satisfaction_level": "good"
+      }
+    ]
+  },
+  "satisfaction_metrics": {
+    "overall_satisfaction": 0.7000000000000001,
+    "response_time_satisfaction": 0.9900810981238329,
+    "resolution_satisfaction": 0.0,
+    "empathy_satisfaction": 0.0,
+    "escalation_satisfaction": 0.8888888888888888
+  },
+  "analytics": {
+    "time_period": "all",
+    "total_interactions": 9,
+    "unique_customers": 7,
+    "satisfaction_distribution": {
+      "distribution": {
+        "excellent": {
+          "count": 1,
+          "percentage": 33.33333333333333
+        },
+        "good": {
+          "count": 2,
+          "percentage": 66.66666666666666
+        }
+      },
+      "average_satisfaction": 0.7000000000000001,
+      "median_satisfaction": 0.7000000000000001
+    },
+    "response_type_performance": {
+      "template_generated": {
+        "count": 3,
+        "average_satisfaction": 0.7000000000000001,
+        "std_satisfaction": 0.08164965809277258
+      }
+    },
+    "escalation_analysis": {
+      "total_escalations": 1,
+      "escalation_rate": 0.1111111111111111,
+      "escalated_satisfaction": 0.6000000000000001,
+      "non_escalated_satisfaction": 0.75
+    },
+    "response_time_analysis": {
+      "average_response_time": 3.5,
+      "median_response_time": 3.5,
+      "response_time_satisfaction_correlation": -1.0,
+      "fast_response_satisfaction": 0.7000000000000001,
+      "slow_response_satisfaction": NaN
+    },
+    "sentiment_impact": {
+      "sentiment_aware_count": 6,
+      "sentiment_unaware_count": 3,
+      "sentiment_aware_satisfaction": NaN,
+      "sentiment_unaware_satisfaction": 0.7000000000000001
+    },
+    "trends": {
+      "trend": "insufficient_data"
+    },
+    "optimization_opportunities": [
+      {
+        "type": "satisfaction_gap",
+        "current": 0.7000000000000001,
+        "target": 0.85,
+        "improvement_needed": 0.1499999999999999,
+        "recommendation": "Focus on improving response quality and empathy"
+      },
+      {
+        "type": "escalation_rate",
+        "current": 0.1111111111111111,
+        "target": 0.1,
+        "improvement_needed": 0.0111111111111111,
+        "recommendation": "Improve first-contact resolution rate"
+      }
+    ]
+  }
+}

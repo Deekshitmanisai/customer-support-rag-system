@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "export_date": "2025-08-02T03:35:19.333638",
+    "total_customers": 6,
+    "total_escalations": 0
+  },
+  "customer_history": {
+    "21416837-d576-4e39-9667-598166860126": [
+      {
+        "timestamp": "2025-08-02T03:35:19.142561",
+        "query": "test customer query",
+        "response": "I'll make sure we get this resolved for you. \nBased on our help articles, I can provide you with the information you need. \nI'm here if you have any other questions. Thank you for reaching out to us.",
+        "escalated": false,
+        "satisfaction_score": null
+      }
+    ],
+    "70ec03ef-80df-4eb6-b973-9afa721a1aee": [
+      {
+        "timestamp": "2025-08-02T03:35:19.176645",
+        "query": "I can't reset my password, this is so frustrating!",
+        "response": "I understand your concern, and let me help you with this. \nHere's what you can do:\nContent: If youve forgotten your password, follow these steps: 1. Go to the login page 2. Click Forgot Password 3. Enter your email address 4. Check your email for reset instructions 5. Click the reset link an...\nContent: If youve forgotten your password, follow these steps: 1. Go to the login page 2. Click Forgot Password 3. Enter your email address 4. Check your email for reset instructions 5. Click the reset link an...\nContent: If youve forgotten your password, follow these steps: 1. Go to the login page 2. Click Forgot Password 3. Enter your email address 4. Check your email for reset instructions 5. Click the reset link an... \nI want to make sure we find the right solution for you. Please let me know if there's anything else I can do to help.",
+        "escalated": false,
+        "satisfaction_score": null
+      }
+    ],
+    "3b377b22-7898-4b02-84eb-29220e1a5f0f": [
+      {
+        "timestamp": "2025-08-02T03:35:19.221791",
+        "query": "How do I return an item I purchased?",
+        "response": "Let me assist you with this right away. \nBased on our help articles, I can provide you with the information you need. \nI'm here if you have any other questions. Thank you for reaching out to us.",
+        "escalated": false,
+        "satisfaction_score": null
+      }
+    ],
+    "bc2c2a8c-adf5-419d-9c96-6a427e6197e5": [
+      {
+        "timestamp": "2025-08-02T03:35:19.256519",
+        "query": "My payment was declined and I need help immediately!",
+        "response": "I can help you with that, no problem. \nBased on our help articles, I can provide you with the information you need. \nI'm glad I could help! Please let me know if you need anything else.",
+        "escalated": false,
+        "satisfaction_score": null
+      }
+    ],
+    "f3ad747b-5b4f-4337-9fc7-ceebc0fcd923": [
+      {
+        "timestamp": "2025-08-02T03:35:19.281439",
+        "query": "The app keeps crashing and I'm losing important data!",
+        "response": "Let me assist you with this right away. \nBased on our help articles, I can provide you with the information you need. \nI'm glad I could help! Please let me know if you need anything else.",
+        "escalated": false,
+        "satisfaction_score": null
+      }
+    ],
+    "12694060-ac81-4132-b217-13c3e70b0c40": [
+      {
+        "timestamp": "2025-08-02T03:35:19.307360",
+        "query": "I want to speak to a manager about this terrible service!",
+        "response": "I understand this is important to you, and I want to help resolve it. \nBased on our help articles, I can provide you with the information you need. \nI want to make sure we find the right solution for you. Please let me know if there's anything else I can do to help.",
+        "escalated": false,
+        "satisfaction_score": null
+      }
+    ]
+  },
+  "escalation_history": [],
+  "analytics": {
+    "total_interactions": 6,
+    "total_escalations": 0,
+    "escalation_rate": 0.0,
+    "category_breakdown": {},
+    "recent_escalations": 0,
+    "trend": "insufficient_data"
+  }
+}

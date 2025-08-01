@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "export_date": "2025-08-02T03:41:21.120786",
+    "total_customers": 6,
+    "total_escalations": 0
+  },
+  "customer_history": {
+    "240a4907-f75e-4095-876f-ac585d3fcd82": [
+      {
+        "timestamp": "2025-08-02T03:41:18.390012",
+        "query": "test customer query",
+        "response": "Let me assist you with this right away. \nBased on our help articles, I can provide you with the information you need. \nI'm here if you have any other questions. Thank you for reaching out to us.",
+        "escalated": false,
+        "satisfaction_score": null
+      }
+    ],
+    "cd00a0c6-cd1b-4e05-b348-001d97130961": [
+      {
+        "timestamp": "2025-08-02T03:41:18.944994",
+        "query": "I can't reset my password, this is so frustrating!",
+        "response": "I can see this has been challenging, and I'm here to assist you. \nHere's what you can do:\nContent: If you've forgotten your password, follow these steps: 1. Go to the login page 2. Click \"Forgot Password\" 3. Enter your email address 4. Check your email for reset instructions 5. Click the reset link... \nI want to make sure we find the right solution for you. Please let me know if there's anything else I can do to help.",
+        "escalated": false,
+        "satisfaction_score": null
+      }
+    ],
+    "8c6b0f6c-eb4d-44b0-9221-1d4080a3b537": [
+      {
+        "timestamp": "2025-08-02T03:41:19.464445",
+        "query": "How do I return an item I purchased?",
+        "response": "I'll make sure we get this resolved for you. \nHere's what you can do:\nContent: If you've forgotten your password, follow these steps: 1. Go to the login page 2. Click \"Forgot Password\" 3. Enter your email address 4. Check your email for reset instructions 5. Click the reset link... \nI'm here if you have any other questions. Thank you for reaching out to us.",
+        "escalated": false,
+        "satisfaction_score": null
+      }
+    ],
+    "0ed13144-6b30-4be4-a4b0-788ed8a70b13": [
+      {
+        "timestamp": "2025-08-02T03:41:19.995463",
+        "query": "My payment was declined and I need help immediately!",
+        "response": "Let me assist you with this right away. \nBased on our help articles, I can provide you with the information you need. \nI'm glad I could help! Please let me know if you need anything else.",
+        "escalated": false,
+        "satisfaction_score": null
+      }
+    ],
+    "468ed3f4-f1d3-470a-b5a7-caeb89d493d0": [
+      {
+        "timestamp": "2025-08-02T03:41:20.541086",
+        "query": "The app keeps crashing and I'm losing important data!",
+        "response": "I can help you with that, no problem. \nHere's what you can do:\nContent: If you've forgotten your password, follow these steps: 1. Go to the login page 2. Click \"Forgot Password\" 3. Enter your email address 4. Check your email for reset instructions 5. Click the reset link... \nI'm glad I could help! Please let me know if you need anything else.",
+        "escalated": false,
+        "satisfaction_score": null
+      }
+    ],
+    "c5b17e6a-d104-4842-a51c-fc03fbc47371": [
+      {
+        "timestamp": "2025-08-02T03:41:21.069315",
+        "query": "I want to speak to a manager about this terrible service!",
+        "response": "I can see this has been challenging, and I'm here to assist you. \nBased on our help articles, I can provide you with the information you need. \nI want to make sure we find the right solution for you. Please let me know if there's anything else I can do to help.",
+        "escalated": false,
+        "satisfaction_score": null
+      }
+    ]
+  },
+  "escalation_history": [],
+  "analytics": {
+    "total_interactions": 6,
+    "total_escalations": 0,
+    "escalation_rate": 0.0,
+    "category_breakdown": {},
+    "recent_escalations": 0,
+    "trend": "insufficient_data"
+  }
+}
