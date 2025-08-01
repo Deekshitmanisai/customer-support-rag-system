@@ -7,13 +7,6 @@ A simplified RAG system that provides the basic functionality needed
 for the Customer Support RAG System.
 """
 
-try:
-    import chromadb
-    CHROMADB_AVAILABLE = True
-except ImportError:
-    CHROMADB_AVAILABLE = False
-    print("Warning: ChromaDB not available, using fallback storage")
-
 from sentence_transformers import SentenceTransformer
 import numpy as np
 from typing import List, Dict, Any, Optional
@@ -29,26 +22,26 @@ class SimpleRAGSystem:
         self.articles = []
         self.embeddings = []
         
-        # Initialize storage system
-        if CHROMADB_AVAILABLE:
-            try:
-                # Try in-memory client first (more reliable for deployment)
-                self.chroma_client = chromadb.Client()
-                self.collection = self.chroma_client.get_or_create_collection(
-                    name="customer_support_articles",
-                    metadata={"hnsw:space": "cosine"}
-                )
-                self.use_chromadb = True
-            except Exception as e:
-                print(f"Warning: ChromaDB failed, using fallback storage: {e}")
-                self.use_chromadb = False
-        else:
+        # Try to import and use ChromaDB
+        try:
+            import chromadb
+            # Try in-memory client first (more reliable for deployment)
+            self.chroma_client = chromadb.Client()
+            self.collection = self.chroma_client.get_or_create_collection(
+                name="customer_support_articles",
+                metadata={"hnsw:space": "cosine"}
+            )
+            self.use_chromadb = True
+            print("Using ChromaDB for storage")
+        except Exception as e:
+            print(f"Warning: ChromaDB not available, using fallback storage: {e}")
             self.use_chromadb = False
         
         # Fallback storage using simple list
         if not self.use_chromadb:
             self.article_embeddings = []
             self.article_metadata = []
+            print("Using in-memory fallback storage")
     
     def add_article(self, title: str, content: str, category: str = None):
         """Add an article to the RAG system."""
